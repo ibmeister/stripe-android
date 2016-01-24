@@ -20,7 +20,7 @@ public class PaymentFormFragment extends Fragment implements PaymentForm {
     Spinner monthSpinner;
     Spinner yearSpinner;
     Spinner currencySpinner;
-    private static final String CURRENCY_UNSPECIFIED = "Not specified.";
+    private static final String CURRENCY_UNSPECIFIED = "Unspecified";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
